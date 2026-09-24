@@ -1,3 +1,4 @@
+
 # Pet Adoption System (PHP + MySQL)
 
 A simple DBMS mini-project: users can browse pets and request adoption;
@@ -40,3 +41,5 @@ admins can add/edit pets and approve/reject requests.
 - Passwords are hashed with `password_hash()` / verified with `password_verify()` — never stored as plain text.
 - All SQL queries use **prepared statements** (`mysqli->prepare` + `bind_param`) to prevent SQL injection.
 - `adoption_requests` has a many-to-one relationship with both `pets` and `users` — a natural talking point for your ER diagram / normalization section.
+# PetAdoption
+ 
